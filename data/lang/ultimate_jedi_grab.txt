@@ -1,0 +1,445 @@
+; Ultimate JediGrab: Translations for the menu (include them)
++ "ultimate_jedi_grab_menu"
+
+; Ultimate JediGrab: Translations for the plugin
+
+"Ultimate Jedi Grab"
+fr:"Force Jedi Ultime"
+
+"- grabs (bind a key to ^"+grab^")"
+fr:"- saisi (bindez une touche sur ^"+grab^")"
+
+"[entity|name|#userid|authid] [range] - press once to grab and again to release"
+fr:"[entite|nom|#numero|authid] [radiation] - saisi/desaisi"
+
+"- grabs with noclip (bind a key to ^"+grab2^")"
+fr:"- saisi avec traversage textures (bindez une touche sur ^"+grab2^")"
+
+"[entity|name|#userid|authid] [range] - press once to grab and again to release (noclip)"
+fr:"[entite|nom|#numero|authid] [radiation] - saisi/desaisi (traversage textures)"
+
+"- pulls the grabee (bind a key to ^"+pull^")"
+fr:"- approche l'entite saisie (bindez une touche sur ^"+pull^")"
+
+"- pushs the grabee (bind a key to ^"+push^")"
+fr:"- pousse l'entite saisie (bindez une touche sur ^"+push^")"
+
+"- copies an entity (bind a key to ^"+copyent^")"
+fr:"- copie une entite (bindez une touche sur ^"+copyent^")"
+
+"- press once to copy and grab and again to release (noclip)"
+fr:"- copie et saisi (traversage textures)"
+
+"- throws the grabee"
+fr:"- lance l'entite saisie"
+
+"- chokes the grabee"
+fr:"- etrangle l'entite saisie"
+
+"<classname> [range] - grabs a certain entity at a specified range (default: 250)"
+fr:"<classe> [radiation] - saisi une entite specifique sur une certaine distance (defaut : 250)"
+
+"- stops moving an entity grabbed with ^"ent_grabtype^""
+fr:"- arrete de deplacer l'entite saisie depuis ^"ent_grabtype^""
+
+"[entity] - places the entity being looked at where it was"
+fr:"[entite] - place l'entite regardee ou elle etait initialement"
+
+"[entity|name|#userid|authid] [x] [y] [z] - shows the origin or moves to the origin specified"
+fr:"[entite|nom|#numero|authid] [x] [y] [z] - montre l'origine ou deplace a l'origine specifiee"
+
+"<x> <y> <z> [entity|name|#userid|authid] - rotates the entity (you can specify an entity id or a player id)"
+fr:"<x> <y> <z> [entite|nom|#numero|authid] - fait tourner l'entite (vous pouvez specifier un id de joueur ou d'entite)"
+
+"[entity] - drops to floor the entity"
+fr:"[entite] - met au sol l'entite"
+
+"[entity] [name|#userid|authid] - makes use the entity you're looking at (open door, defuse bomb, ...)"
+fr:"[entite] [nom|#numero|authid] - fait utiliser l'entite regardee (ouverture porte, desamorcage bombe, ...)"
+
+"[classname] [range] - kills the entity (you can specify an entity type and a range)"
+fr:"[classe] [radiation] - supprime l'entite (vous pouvez specifier une classe et une radiation)"
+
+"- selects an entity to be mass moved"
+fr:"- selectionne une entite pour un mouvement de masse"
+
+"- removes the last entity added from the mass process"
+fr:"- supprime la derniere entite ajoutee pour le mouvement de masse"
+
+"- starts the mass move process once all entities have been grabbed"
+fr:"- demarre le mouvement de masse une fois que toutes les entites ont ete saisies"
+
+"- starts the mass move process once all entities have been grabbed (noclip)"
+fr:"- demarre le mouvement de masse une fois que toutes les entites ont ete saisies (traversage)"
+
+"- releases all entities being mass moved"
+fr:"- arrete le mouvement de masse des entites"
+
+"<number> <offset x> <offset y> <offset z> - creates a certain number of entities each offseted from the last"
+fr:"<nombre> <ecart x> <ecart y> <ecart z> - cree un nombre d'entites decallees depuis la derniere"
+
+"<entity> <row num> <colums num> <row offset> <colums offset> - creates a wall made of the entity specified"
+fr:"<entite> <nb rangees> <nb colonnes> <ecart rangees> <ecart colonnes> - cree un mur depuis l'entite specifiee"
+
+"- gives some informations about the entity being looked at"
+fr:"- donne quelques informations sur l'entite regardee"
+
+"- searches for entities within 150 units of your location"
+fr:"- cherche les entites sous 150 unites depuis votre position"
+
+"- creates a temporary line in the X direction"
+fr:"- cree une ligne temporaire dans le sens des X"
+
+"- creates a temporary line in the Y direction"
+fr:"- cree une ligne temporaire dans le sens des Y"
+
+"- creates a temporary line in the Z direction"
+fr:"- cree une ligne temporaire dans le sens des Z"
+
+"[entity|name|#userid|authid] - shows keyvalues of the entity being looked at or specified"
+fr:"[entite|nom|#numero|authid] - montre les valeurs des cles de l'entite regardee ou specifiee"
+
+"<key> <value> [entity|name|#userid|authid] - sets keyvalue on the entity"
+fr:"<cle> <valeur> [entite|nom|#numero|authid] - defini une valeur de cle a l'entite"
+
+"<name> [x] [y] [z] - creates a teleporter entrance that leads to the exit with the matching name"
+fr:"<nom> [x] [y] [z] - cree un teleporteur d'entree qui conduit a la sortie ayant le meme nom"
+
+"<name> [x] [y] [z] - creates a teleporter exit that comes from the entrance with a matching name"
+fr:"<nom> [x] [y] [z] - cree un teleporteur de sortie qui vient de l'entree ayant le meme nom"
+
+"<name> - deletes the teleporter entrances and exit with the name specified"
+fr:"<nom> - supprime les teleporteurs (entrees et sorties) ayant le nom specifie"
+
+"- lists all teleporters created from the commands ent_telestart/ent_teleend"
+fr:"- liste tous les teleporteurs crees depuis les commandes ent_telestart/ent_teleend"
+
+"<^"load^"|^"save^"|^"list^"> - loads/saves/lists the teleporters on the current map"
+fr:"<^"load^"|^"save^"|^"list^"> - charge/sauvegarde/liste les teleporteurs sur la carte en cours"
+
+"[entity] - adds the entity to the save list"
+fr:"[entite] - ajoute une entite a la liste de sauvegarde"
+
+"- removes the last entity added from the save list"
+fr:"- supprime la derniere entite ajoutee a la liste de sauvegarde"
+
+"- removes all the entities added from the save list"
+fr:"- supprime toutes les entites ajoutees a la liste de sauvegarde"
+
+"<name> - saves all entities grabbed with the name specified"
+fr:"<nom> - sauvegarde toutes les entites saisies avec le nom specifie"
+
+"- lists all entities saved on the current map (MOTD)"
+fr:"- liste toutes les entites sauvegardees sur la carte en cours (MOTD)"
+
+"- lists all entities saved on the server (MOTD)"
+fr:"- liste toutes les entites sauvegardees sur le serveur (MOTD)"
+
+"<name> - loads the entity file saved on the current map"
+fr:"<nom> - charge le fichier d'entite sauvegarde sur la carte en cours"
+
+; Misc
+"[UJG] Entity invalid."
+fr:"[FJU] Entite invalide."
+
+"[UJG] Incorrect range."
+fr:"[FJU] Radiation incorrecte."
+
+"[UJG] No entity found or entity invalid."
+fr:"[FJU] Aucune entite trouvee ou entite invalide."
+
+"[UJG] You grabbed entity %d (%s)."
+fr:"[FJU] Vous avez saisi l'entite %d (%s)."
+
+"[UJG] No target found."
+fr:"[FJU] Aucune cible trouvee."
+
+"[UJG] Too many entities on the map."
+fr:"[FJU] Trop d'entites sur la carte."
+
+"[UJG] You can't release a TRIGGER entity inside something SOLID!"
+fr:"[FJU] Vous ne pouvez relacher une entite ^"TRIGGER^" dans quelque chose de SOLIDE !"
+
+"[UJG] You have grabbed an entity! (index: %d | classname: %s)"
+fr:"[FJU] Vous avez saisi une entite ! (index : %d | classe : %s)"
+
+; main grab cmds
+"[UJG] Someone has already grabbed this entity or selected it for a mass movement."
+fr:"[FJU] Quelqu'un a deja saisi cette entite ou l'a choisie pour un mouvement de masse."
+
+"[UJG] You can't grab something normally while mass move process."
+fr:"[FJU] Vous ne pouvez pas saisir quelque chose de normal pendant un mouvement de masse."
+
+"[UJG] Invalid position aiming, make sure you can see a clear area in front of you before to grab someone."
+fr:"[FJU] Position visee invalide, assurez-vous que la zone soit degagee avant de saisir un joueur."
+
+"[UJG] %d entities found but they have already grabbed or selected for a mass movement."
+fr:"[FJU] %d entites trouvees mais elles sont deja saisies ou choisies pour un mouvement de masse."
+
+"[UJG] 1 entity found but it has been already grabbed or selected for a mass movement."
+fr:"[FJU] 1 entite trouvee mais elle a deja ete saisie ou choisie pour un mouvement de masse."
+
+"[UJG] Searching for a target..."
+fr:"[FJU] Recherche d'une cible..."
+
+"[UJG] You have released an entity!"
+fr:"[FJU] Vous avez relache une entite !"
+
+; throw
+"[UJG] You have thrown an entity!"
+fr:"[FJU] Vous avez lance une entite !"
+
+; jedichoke
+"*** You Are Being Choked By A Jedi!"
+fr:"*** Vous Etes En Train D'Etre Etrangle Par Un Jedi !"
+
+"*** You Are Choking %s!"
+fr:"*** Vous Etes En Train D'Etrangler %s !"
+
+; ent_undomoving
+"[UJG] The entity %d (%s) moved back to original position."
+fr:"[FJU] L'entite %d (%s) a ete remise a sa position d'origine."
+
+; ent_origin
+"[UJG] Entity %d (%s) moved in brush mode to origin: X = %.f | Y = %.f | Z = %.f"
+fr:"[FJU] L'entite %d (%s) a ete deplacee en mode ^"brush^" vers la position : X = %.f | Y = %.f | Z = %.f"
+
+"[UJG] Entity %d (%s) moved to origin: X = %.f | Y = %.f | Z = %.f"
+fr:"[FJU] L'entite %d (%s) a ete deplacee vers la position : X = %.f | Y = %.f | Z = %.f"
+
+"[UJG] Player ^"%s^" moved to origin: X = %.f | Y = %.f | Z = %.f"
+fr:"[FJU] Le joueur ^"%s^" a ete deplace vers la position : X = %.f | Y = %.f | Z = %.f"
+
+"[UJG] Origins of entity %d (%s):"
+fr:"[FJU] Origines de l'entite %d (%s) :"
+
+"    Normal origin: X = %.f | Y = %.f | Z = %.f"
+fr:"    Origine normale : X = %.f | Y = %.f | Z = %.f"
+
+"    Brush origin: X = %.f | Y = %.f | Z = %.f"
+fr:"    Origine en ^"brush^" : X = %.f | Y = %.f | Z = %.f"
+
+; ent_rotate
+"[UJG] The entity %d (%s) has been rotated."
+fr:"[FJU] L'entite %d (%s) a ete tournee."
+
+; ent_droptofloor
+"[UJG] The entity %d (%s) has been dropped to floor."
+fr:"[FJU] L'entite %d (%s) a ete mise au sol."
+
+; ent_use
+"[UJG] %s ^"used^" entity %d (%s)."
+fr:"[FJU] %s ^"a utilise^" l'entite %d (%s)."
+
+"[UJG] You ^"used^" entity %d (%s)."
+fr:"[FJU] Vous avez ^"utilise^" l'entite %d (%s)."
+
+; ent_kill
+"[UJG] Removed %d entities (%s)."
+fr:"[FJU] Suppression de %d entites (%s)."
+
+"[UJG] No entity found in the range or entity invalid."
+fr:"[FJU] Aucune entite trouvee dans la radiation ou entite invalide."
+
+"[UJG] The entity %d (%s) has been removed."
+fr:"[FJU] L'entite %d (%s) a ete supprimee."
+
+; ent_mm_<grab|ungrab|start|start2|end>
+"[UJG] You can't start mass move process while you are grabbing something else."
+fr:"[FJU] Vous ne pouvez pas demarrer un mouvement de masse lorsque vous avez deja saisi quelque chose d'autre."
+
+"[UJG] You can't grab any more entities."
+fr:"[FJU] Vous ne pouvez pas saisir plus d'entites."
+
+"[UJG] No target found or entity already grabbed."
+fr:"[FJU] Aucune cible trouvee ou entite deja saisie."
+
+"[UJG] You can't remove the last entity while mass move process."
+fr:"[FJU] Vous ne pouvez pas supprimer la derniere entite ajoutee pendant le mouvement de masse."
+
+"[UJG] Last entity added (%d) has been removed from the mass process."
+fr:"[FJU] Derniere entite ajoutee (%d) supprimee depuis le mouvement de masse."
+
+"[UJG] You haven't grabbed any entities."
+fr:"[FJU] Vous n'avez pas saisi d'entites."
+
+; ent_<stack|wall>
+"[UJG] Incorrect number of entities."
+fr:"[FJU] Nombre d'entites invalide."
+
+"[UJG] You can't stack players."
+fr:"[FJU] Vous ne pouvez pas empiler des joueurs."
+
+"[UJG] Entity has been copied %d times."
+fr:"[FJU] Entity has been copied %d times."
+
+"[UJG] Entity %d (%s) has been copied %d times."
+fr:"[FJU] L'entite %d (%s) a ete copiee %d fois."
+
+"[UJG] A parameter is incorrect."
+fr:"[FJU] Un parametre est incorrect."
+
+"[UJG] Wall based on entity %d (%s) has been created."
+fr:"[FJU] Le mur base sur l'entite %d (%s) a ete cree."
+
+; ent_lookingat
+"[UJG] You can't see the informations of a player."
+fr:"[FJU] Vous ne pouvez pas voir les informations d'un joueur."
+
+"[UJG] Informations of the entity you're looking at:"
+fr:"[FJU] Informations sur l'entite regardee :"
+
+"    Index: %d | Classname: %s"
+fr:"    Index : %d | Classe : %s"
+
+"    Size on the specific axis: X = %.f | Y = %.f | Z = %.f"
+fr:"    Taille sur l'axe specifie : X = %.f | Y = %.f | Z = %.f"
+
+; ent_search
+"[UJG] No entity found."
+fr:"[FJU] Aucune entite trouvee."
+
+"[UJG] Entities found:"
+fr:"[FJU] Entites trouvees :"
+
+; ent_show<x|y|z>
+"[UJG] X axis showed."
+fr:"[FJU] Axe X montre."
+
+"[UJG] Y axis showed."
+fr:"[FJU] Axe Y montre."
+
+"[UJG] Z axis showed."
+fr:"[FJU] Axe Z montre."
+
+; ent_<show|set>keyvalue
+"[UJG] KeyValues of entity %d (%s):"
+fr:"[FJU] Cles et valeurs de l'entite %d (%s) :"
+
+"    Key: %s | Value: %s"
+fr:"    Cle : %s | Valeur : %s"
+
+"[UJG] No KeyValue found for entity %d."
+fr:"[FJU] Aucune valeur de cle trouvee pour l'entite %d."
+
+"[UJG] You must specify a key and a value."
+fr:"[FJU] Vous devez specifier une cle et une valeur."
+
+"[UJG] KeyValue sets on entity %d (key: %s | value: %s)."
+fr:"[FJU] Valeur de cle definie sur l'entite %d (cle : %s | valeur : %s)."
+
+; Teleporters (start/end)
+"[UJG] Teleporter start ^"%s^" has been created."
+fr:"[FJU] Teleporteur de depart avec comme nom ^"%s^" cree."
+
+"[UJG] Unable to create teleporter start."
+fr:"[FJU] Impossible de creer un teleporteur de depart."
+
+"[UJG] Unable to create more than one teleporter end with the same name (%s)."
+fr:"[FJU] Impossible de creer plus d'un teleporteur de sortie du meme nom (%s)."
+
+"[UJG] Unable to create teleporter end."
+fr:"[FJU] Impossible de creer un teleporteur de sortie."
+
+"[UJG] You must create first a teleporter start, and both teleporter start/end must have the same name to be linked."
+fr:"[FJU] Vous devez d'abord creer un teleporteur de depart, et les deux teleporteurs doivent avoir le meme nom pour etre relies."
+
+"[UJG] Teleporter end ^"%s^" has been created."
+fr:"[FJU] Teleporteur de sortie avec comme nom ^"%s^" cree."
+
+"[UJG] Removed %d teleporters with ^"%s^" as target/targetname."
+fr:"[FJU] Suppression de %d teleporteurs avec ^"%s^" comme cible ou nom de cible."
+
+"[UJG] No teleporter found with ^"%s^" as target/targetname."
+fr:"[FJU] Aucun teleporteur trouve avec ^"%s^" comme cible ou non de cible."
+
+"[UJG] You have no access to load a teleporter."
+fr:"[FJU] Vous n'avez pas acces au chargement d'un teleporteur."
+
+"[UJG] There is no teleporter saved on this map."
+fr:"[FJU] Il n'y a aucun teleporteur sauvegarde sur cette carte."
+
+"[UJG] Loading %d teleporter(s) from the map configuration file (%d start(s), %d end(s))."
+fr:"[FJU] Chargement de %d teleporteur(s) depuis le fichier de config de la carte (%d entree(s), %d sortie(s))."
+
+"[UJG] No teleporter loaded from the map configuration file."
+fr:"[FJU] Aucun teleporteur charge depuis le fichier de config de la carte."
+
+"[UJG] You have no access to save a teleporter."
+fr:"[FJU] Vous n'avez pas acces a la sauvegarde d'un teleporteur."
+
+"[UJG] Saved %d teleporter(s) (%d start(s), %d end(s))."
+fr:"[FJU] Sauvegarde de %d teleporteur(s) (%d entree(s), %d sortie(s))."
+
+"[UJG] No teleporter saved."
+fr:"[FJU] Aucun teleporteur sauvegarde."
+
+"^n----- Ultimate Jedi Grab: Teleporter start and their infos -----"
+fr:"^n----- Force Jedi Ultime : Teleporteurs de depart et leurs infos -----"
+
+"Index: %d | Target: %s | Saved: %s"
+fr:"Index : %d | Cible : %s | Sauvegarde : %s"
+
+"Yes"
+fr:"oui"
+
+"No"
+fr:"non"
+
+"[UJG] No teleporter start found."
+fr:"[FJU] Aucun teleporteur de depart trouve."
+
+"^n----- Ultimate Jedi Grab: Teleporter end and their infos -----"
+fr:"^n----- Force Jedi Ultime : Teleporteurs de sortie et leurs infos -----"
+
+"[UJG] No teleporter end found."
+fr:"[FJU] Aucun teleporteur de sortie trouve."
+
+; ent_es_*
+"[UJG] You can't grab a player to add him to the save list."
+fr:"[FJU] Vous ne pouvez pas saisir un joueur pour l'ajouter a la liste de sauvegarde."
+
+"[UJG] Last entity added (%d) has been removed."
+fr:"[FJU] La derniere entite ajoutee (%d) a ete supprimee."
+
+"[UJG] You haven't saved any entities."
+fr:"[FJU] Vous n'avez pas sauvegarde d'entites."
+
+"[UJG] All the entities added for saving have been removed."
+fr:"[FJU] Toutes les entites ajoutees pour la sauvegarde ont ete supprimees."
+
+"[UJG] All the entities have been saved (%s)."
+fr:"[FJU] Toutes les entites ont ete sauvegardees (%s)."
+
+"[UJG] Save directory doesn't exist (%s)."
+fr:"[FJU] Le repertoire de sauvegarde n'existe pas (%s)."
+
+"<b>Groups saved for this map (%s):</b><br><br>"
+fr:"<b>Groupes sauvegardés pour cette carte (%s) :</b><br><br>"
+
+"Groups saved for this map (%s):^n^n"
+fr:"Groupes sauvegardés pour cette carte (%s) :^n^n"
+
+"No entity saved on this map."
+fr:"Aucune entité sauvegardée sur cette carte."
+
+"<b>Groups saved for the server:</b><br><br>"
+fr:"<b>Groupes sauvegardés pour le serveur :</b><br><br>"
+
+"Groups saved for the server:^n^n"
+fr:"Groupes sauvegardés pour le serveur :^n^n"
+
+"No entity saved on the server."
+fr:"Aucune entité sauvegardée pour le serveur."
+
+"UJG: Saved Entities"
+fr:"FJU : Entites Sauvegardees"
+
+"[UJG] File ^"%s^" related to map ^"%s^" not found."
+fr:"[FJU] Fichier ^"%s^" relatif a la carte ^"%s^" non trouve."
+
+"[UJG] Unable to create entity."
+fr:"[FJU] Impossible de creer l'entite."
+
+"[UJG] File ^"%s^" related to map ^"%s^" found and loaded."
+fr:"[FJU] Fichier ^"%s^" relatif a la carte ^"%s^" trouve et charge."

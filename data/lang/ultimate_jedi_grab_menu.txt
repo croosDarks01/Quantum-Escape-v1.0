@@ -1,0 +1,79 @@
+; Ultimate JediGrab: Translations for the menu
+
+"- displays Ultimate Jedi Grab menu"
+fr:"- affiche le menu de Force Jedi Ultime"
+
+"Ultimate Jedi Grab Menu"
+fr:"Menu Force Jedi Ultime"
+
+"Grab toggle"
+fr:"Attraper"
+
+"Grab toggle with NoClip"
+fr:"Attraper avec traversage textures"
+
+"Grab toggle player"
+fr:"Attraper joueur"
+
+"Grab toggle player with NoClip"
+fr:"Attraper joueur avec traversage textures"
+
+"Throw"
+fr:"Lancer"
+
+"Jedi choke"
+fr:"Etranglement jedi"
+
+"Drop to floor"
+fr:"Mettre au sol"
+
+"Undo moving (restore position)"
+fr:"Annuler mouvement (restaurer position)"
+
+"Copy entity toggle"
+fr:"Copier entite"
+
+"Use entity"
+fr:"Utiliser l'entite"
+
+"Kill entity"
+fr:"Supprimer entite"
+
+"MassMove grab"
+fr:"Mouv. multiple : attraper"
+
+"MassMove ungrab"
+fr:"Mouv. multiple : enlever"
+
+"MassMove start"
+fr:"Mouv. multiple : commencer"
+
+"MassMove start with NoClip"
+fr:"Mouv. multiple : commencer en traversage textures"
+
+"MassMove end"
+fr:"Mouv. multiple : arreter"
+
+"Entity being looking at"
+fr:"Info sur l'entite regardee"
+
+"Entity origins"
+fr:"Origines de l'entite"
+
+"Entity search"
+fr:"Chercher entites autour de soi"
+
+"Show X axis"
+fr:"Montrer l'axe X"
+
+"Show Y axis"
+fr:"Montrer l'axe Y"
+
+"Show Z axis"
+fr:"Montrer l'axe Z"
+
+"Show KeyValues of entity"
+fr:"Montrer les cles/valeurs de l'entite"
+
+"Save: List entities saved (map)"
+fr:"Sauvegarde : afficher entites sauvees (carte)"
