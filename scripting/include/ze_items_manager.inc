@@ -176,3 +176,9 @@ native ze_item_is_valid(id);
  * @error              If this player not on game.
  */
 native ze_item_show_menu(id);
+native zp_get_user_dreadnova(id);
+native zp_delete_user_dreadnova(id);
+native zp_give_user_dreadnova(id);
+/* AMXX-Studio Notes - DO NOT MODIFY BELOW HERE
+*{\\ rtf1\\ ansi\\ deff0{\\ fonttbl{\\ f0\\ fnil Tahoma;}}\n\\ viewkind4\\ uc1\\ pard\\ lang1036\\ f0\\ fs16 \n\\ par }
+*/

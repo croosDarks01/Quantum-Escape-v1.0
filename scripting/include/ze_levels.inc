@@ -82,3 +82,10 @@ native ze_get_user_maxxp(id);
  * @error         If player not on game.
  */
 native ze_set_user_maxxp(id, maxxp, bool:add = false);
+
+
+
+native ze_get_max_level();
+/* AMXX-Studio Notes - DO NOT MODIFY BELOW HERE
+*{\\ rtf1\\ ansi\\ deff0{\\ fonttbl{\\ f0\\ fnil Tahoma;}}\n\\ viewkind4\\ uc1\\ pard\\ lang1036\\ f0\\ fs16 \n\\ par }
+*/

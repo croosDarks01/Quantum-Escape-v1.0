@@ -514,3 +514,12 @@ native ze_set_user_fire_ex(id, Float:flPeriod);
  *                  Translation key does not exist.
  */
 native ze_hud_info_set(id, const szClass[], const iColor[3], bMl = false);
+
+native ze_get_alive_humans_number();
+native ze_get_azm_number();
+native ze_get_humans_number();
+native ze_get_zm_number();
+
+/* AMXX-Studio Notes - DO NOT MODIFY BELOW HERE
+*{\\ rtf1\\ ansi\\ deff0{\\ fonttbl{\\ f0\\ fnil Tahoma;}}\n\\ viewkind4\\ uc1\\ pard\\ lang1036\\ f0\\ fs16 \n\\ par }
+*/

@@ -69,13 +69,14 @@ new const g_szEntitesClass[][] =
 }
 
 // Cvars.
+
 new g_iReqPlayers,
 	bool:g_bBlockSuicide,
 	bool:g_bBlockMoneyHUD,
 	bool:g_bBlockHpArRrHUD,
 	bool:g_bBlockBloodEffs,
 	bool:g_bBlockStartupMOTD,
-	boool:g_bBlockHintMessage,
+	bool:g_bBlockHintMessage,
 	Float:g_flRoundEndDelay
 
 // Variables.
@@ -124,6 +125,11 @@ public plugin_natives()
 
 	register_native("ze_set_user_speed", "__native_set_user_speed")
 	register_native("ze_reset_user_speed", "__native_reset_user_speed")
+	register_native("ze_get_alive_humans_number", "__native_get_alive_humans_number")
+	register_native("ze_get_humans_number", "__native_get_humans_number")
+	register_native("ze_get_zm_number", "__native_get_zm_number")
+	register_native("ze_get_azm_number", "__native_get_a_zombies_number"); 
+
 
 	g_iFwSpawn = register_forward(FM_Spawn, "fw_Spawn_Pre")
 
@@ -748,6 +754,7 @@ public fw_PlayerSpawn_Post(const id)
 			if (x_bRespawnAsZombie)
 			{
 				set_user_Zombie(id)
+				
 			}
 			else
 			{
@@ -1170,3 +1177,28 @@ public __native_reset_user_speed(const plugin_id, const num_params)
 	fw_ResetMaxSpeed_Post(id)
 	return true
 }
+public __native_get_alive_humans_number()
+{
+	new AhumanNum = get_playersnum_ex(GetPlayers_ExcludeDead|GetPlayers_MatchTeam, "CT")
+	return AhumanNum
+}
+
+public __native_get_a_zombies_number()
+{
+	new AzombieNum = get_playersnum_ex(GetPlayers_ExcludeDead|GetPlayers_MatchTeam, "TERRORIST")
+	return AzombieNum
+}
+public __native_get_humans_number()
+{
+	new humanNum = get_member_game(m_iNumCT)
+	return humanNum
+}
+
+public __native_get_zm_number()
+{
+	new zombieNum = get_member_game(m_iNumTerrorist)
+	return zombieNum
+}
+/* AMXX-Studio Notes - DO NOT MODIFY BELOW HERE
+*{\\ rtf1\\ ansi\\ deff0{\\ fonttbl{\\ f0\\ fnil Tahoma;}}\n\\ viewkind4\\ uc1\\ pard\\ lang1036\\ f0\\ fs16 \n\\ par }
+*/

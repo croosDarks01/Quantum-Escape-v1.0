@@ -1,11 +1,13 @@
 #include <amxmodx>
 #include <amxmisc>
-
 #include <ze_core>
 #include <ze_class_human>
 #include <ze_class_zombie>
+#include <ze_knife_menu>
 #define LIBRARY_HUMAN "ze_class_human"
 #define LIBRARY_ZOMBIE "ze_class_zombie"
+#define LIBRARY_crxknives "ze_knife_menu"
+
 
 // Keys Menu.
 const KEYS_MENU = MENU_KEY_1|MENU_KEY_2|MENU_KEY_3|MENU_KEY_4|MENU_KEY_5|MENU_KEY_6|MENU_KEY_7|MENU_KEY_8|MENU_KEY_9|MENU_KEY_0
@@ -110,7 +112,7 @@ public show_Menu_Main(const id)
 	// 2. Extra Items.
 	if (is_user_alive(id))
 	{
-		iLen += formatex(szMenu[iLen], charsmax(szMenu) - iLen, "\r2. \y%L^n", LANG_PLAYER, "MENU_EXTRAITEMS")
+		iLen += formatex(szMenu[iLen], charsmax(szMenu) - iLen, "\r2. \w%L^n", LANG_PLAYER, "MENU_EXTRAITEMS")
 	}
 	else
 	{
@@ -123,18 +125,32 @@ public show_Menu_Main(const id)
 	// 3. Human Classes
 	if (module_exists(LIBRARY_HUMAN))
 	{
-		iLen += formatex(szMenu[iLen], charsmax(szMenu) - iLen, "\r3. %L^n", LANG_PLAYER, "MENU_HCLASSES")
+		iLen += formatex(szMenu[iLen], charsmax(szMenu) - iLen, "\r3. \w%L^n", LANG_PLAYER, "MENU_HCLASSES")
 	}
 
 	// 4. Zombie Classes
 	if (module_exists(LIBRARY_ZOMBIE))
 	{
-		iLen += formatex(szMenu[iLen], charsmax(szMenu) - iLen, "\r4. %L^n", LANG_PLAYER, "MENU_ZCLASSES")
+		iLen += formatex(szMenu[iLen], charsmax(szMenu) - iLen, "\r4. \w%L^n", LANG_PLAYER, "MENU_ZCLASSES")
 	}
+	// 5. Knife Menu
+
+
+	iLen += formatex(szMenu[iLen], charsmax(szMenu) - iLen, "\r5. \w%L^n", LANG_PLAYER, "MENU_KNIFE")
+
 
 	// New Line.
 	szMenu[iLen++] = '^n'
-
+	//6. Unstuck
+	iLen += formatex(szMenu[iLen], charsmax(szMenu) - iLen, "\r6. \w%L^n", LANG_PLAYER, "MENU_UNSTUCK")
+	//7. Cam Menu
+	iLen += formatex(szMenu[iLen], charsmax(szMenu) - iLen, "\r7. \w%L^n", LANG_PLAYER, "MENU_CAM")
+	
+	// New Line.
+	szMenu[iLen++] = '^n'
+	iLen += formatex(szMenu[iLen], charsmax(szMenu) - iLen, "\r8. %L^n", LANG_PLAYER, "MENU_ADMIN")
+	// New Line.
+	szMenu[iLen++] = '^n'
 	// 0. Exit.
 	iLen += formatex(szMenu[iLen], charsmax(szMenu) - iLen, "\r0. \w%L", LANG_PLAYER, "MENU_EXIT")
 
@@ -192,6 +208,30 @@ public handler_Menu_Main(const id, iKey)
 				ze_zclass_show_menu(id)
 			}
 		}
+		
+		case 4: // 5. Knife Menu.
+		{
+
+			crxknives_knife_show_menu(id, 1)
+
+		}
+		case 5: // 6. Unstuck.
+		{
+
+			client_cmd(id, "say /unstuck");
+
+		}
+		case 6: // 7.CAM MENU
+		{
+			client_cmd(id, "say /cam");
+
+		}
+		case 7: // 8.ADMIN MENU
+		{
+			client_cmd(id, "say /am");
+
+		}
+
 		case 9: // 0. Exit.
 		{
 			return PLUGIN_HANDLED
@@ -200,3 +240,6 @@ public handler_Menu_Main(const id, iKey)
 
 	return PLUGIN_HANDLED
 }
+/* AMXX-Studio Notes - DO NOT MODIFY BELOW HERE
+*{\\ rtf1\\ ansi\\ deff0{\\ fonttbl{\\ f0\\ fnil Tahoma;}}\n\\ viewkind4\\ uc1\\ pard\\ lang1036\\ f0\\ fs16 \n\\ par }
+*/

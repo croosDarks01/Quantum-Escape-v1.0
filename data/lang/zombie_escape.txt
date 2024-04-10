@@ -1,7 +1,7 @@
 [en]
-GAME_DESC = "Zombie Escape"
-CHAT_PREFIX = "[!gZE!y]"
-MENU_PREFIX = "\r[ZE]\w"
+GAME_DESC = "Quantum Escape v1.0"
+CHAT_PREFIX = "[!gQZE!y]"
+MENU_PREFIX = "\r[QZE]\w"
 
 HUD_ESCAPE = "** Escape Mode **"
 HUD_NEMESIS = "** Nemesis Mode **"
@@ -11,13 +11,13 @@ HUD_SWARM = "** Swarm Mode **"
 HUD_ESCAPE_FAIL = "-=| Escape Fail |=-"
 HUD_ESCAPE_SUCCESS = "-=| Escape Success |=-"
 
-HUD_SCOREMESSAGE = "| Humans: %i - %i :Zombies |"
+HUD_SCOREMESSAGE = "| Humans %i - %i Zombies |"
 HUD_COUNTDOWN = "Zombie(s) will appear after %i Second(s) !"
 
 HUD_RELEASETIME = "Zombie(s) will be released after %i Second(s) !"
 HUD_RELEASED = "Zombie(s) Released!"
 
-MSG_READY = "!tAre you Ready!y? !tDon't Forget !y= !gCOVER/DEFENSE = WIN!"
+MSG_READY = "!tAre you ready!y? !gMake sure to defend!"
 NO_ENOUGH_PLAYERS = "!tNot enough players!y, Required players: !g%i/%i!y"
 
 MENU_PRIMARY_TITLE = "Primary Weapons"
@@ -41,8 +41,9 @@ MENU_WEAPONS = "Weapons"
 MENU_RE_WEAPONS = "Weapons \r[Auto Buy]"
 MENU_EXTRAITEMS = "Extra Items"
 MENU_HCLASSES = "Human Classes"
-MENU_ZCLASSES = "Zombie Classes"
 
+MENU_KNIFE = "Knife Menu"
+MENU_ZCLASSES = "Zombie Classes"
 MENU_NEXT = "Next"
 MENU_BACK = "Back"
 MENU_EXIT = "Exit"
@@ -55,9 +56,9 @@ CMD_NOT_ALIVE = "You are dead!"
 
 HUD_INFECT_NOTICE = "%s has been infected by %s"
 
-MSG_COINS_WINS = "!tEscape Success!y | You earned !g+%d!y EC!"
-MSG_COINS_KILLED = "!tZombie Killed!y | You earned !g+%d!y EC!"
-MSG_COINS_INFECTED = "!tHuman Infected!y | You earned !g+%d!y EC!"
+MSG_COINS_WINS = "!tEscape Success!y | You earned !g+%d!y QC! and !g+20!y XP!"
+MSG_COINS_KILLED = "!tZombie Killed!y | You earned !g+%d!y QC!"
+MSG_COINS_INFECTED = "!tHuman Infected!y | You earned !g+%d!y QC! and !g+5!y XP!"
 MSG_NO_COINS_ENOUGH = "You don't have enough coins!"
 
 CLASS_HUMAN = "Human"
@@ -65,13 +66,13 @@ CLASS_ZOMBIE = "Zombie"
 CLASS_NEMESIS = "Nemesis"
 CLASS_SURVIVOR = "Survivor"
 
-HUD_INFO_SPEC = "Name: %s^nHP: %d | Armor: %d | Class: %s | EC: %d"
-HUD_INFO_SPEC_COMMAS = "Name: %s^nHP: %s | Armor: %s | Class: %s | EC: %s"
-HUD_INFO_SPEC_NUM_ABBR = "Name: %s^nHP: %s | Armor: %s | Class: %s | EC: %s"
+HUD_INFO_SPEC = "Name: %s^nHP: %d | Armor: %d | Class: %s | QC: %d"
+HUD_INFO_SPEC_COMMAS = "Name: %s^nHP: %s | Armor: %s | Class: %s | QC: %s"
+HUD_INFO_SPEC_NUM_ABBR = "Name: %s^nHP: %s | Armor: %s | Class: %s | QC: %s"
 
-HUD_INFO_STATS = "Name: %s^nHP: %d | Armor: %d | Class: %s | EC: %d"
-HUD_INFO_STATS_COMMAS = "Name: %s^nHP: %s | Armor: %s | Class: %s | EC: %s"
-HUD_INFO_STATS_NUM_ABBR = "Name: %s^nHP: %s | Armor: %s | Class: %s | EC: %s"
+HUD_INFO_STATS = "Name: %s^nHP: %d | Armor: %d | Class: %s | qC: %d"
+HUD_INFO_STATS_COMMAS = "Name: %s^nHP: %s | Armor: %s | Class: %s | QC: %s"
+HUD_INFO_STATS_NUM_ABBR = "Name: %s^nHP: %s | Armor: %s | Class: %s | qC: %s"
 
 NABBR_THOUSANDS = "K"
 NABBR_MILLIONS = "M"
@@ -82,7 +83,7 @@ MENU_HUMANS_TITLE = "Humans Classes"
 
 NEXT = "Next"
 CURRENT = "Current"
-
+EXIT = "Exit"
 MSG_HUMAN_NAME = "Name: !t%s"
 MSG_HUMAN_INFO = "HP: !g%.2f!y | Shield: !g%.2f!y | Speed (!g%L!y): !g%.2f!y | Gravity: !g%.2f!y"
 
@@ -94,3 +95,50 @@ DYNAMIC = "Dynamic"
 
 MENU_LEVEL = "Level"
 MSG_LVL_NOT_ENOUGH = "You don't have enough level!"
+
+MSG_RS_SUCCESS = "Your score has been reset successfully!"
+MSG_RS_COOLDOWN = "You can use command !t/rs !yafter !g%.2f !ysecond(s)!"
+MSG_RS_DISABLED = "Reset Score command is disabled!"
+
+HUD_HP_REMAIN = "HP: %i"
+HUD_HP_REMAIN_COMMAS = "HP: %s"
+
+HUD_TARGET_INFO_1 = "Name: %s^nHealth: %i | Shield: %i | QC: %i"
+HUD_TARGET_INFO_2 = "Name: %s"
+
+MSG_BREAK_INFO = "!g%s !thas break something !g#%i !"
+MSG_BUTTON_INFO = "!g%s !thas pressed a button !g#%i !"
+
+HUD_SPEC_LEVEL = "Level: %i | XP: %i/%i"
+HUD_SPEC_LEVEL_PERC = "Level: %i | XP: %.2f%"
+HUD_SPEC_LEVEL_COMMAS = "Level: %s | XP: %s/%s"
+HUD_SPEC_LEVEL_NUM_ABBR = "Level: %s | XP: %s/%s"
+ 
+HUD_USER_LEVEL = "Level: %i | XP: %i/%i"
+HUD_USER_LEVEL_PERC = "Level: %i | XP: %.2f%"
+HUD_USER_LEVEL_COMMAS = "Level: %s | XP: %s/%s"
+HUD_USER_LEVEL_NUM_ABBR = "Level: %s | XP: %s/%s"
+ 
+MSG_LEVEL_UP = "!g%s !tin level !g%i"
+MENU_UNSTUCK = "Unstuck"
+MENU_CAM = "Camera View"
+
+MENU_ADMIN_TITLE = "Admin Menu"
+MENU_MAKE_HM_ZM = "Make Human/Zombie"
+MENU_MAKE_NEMESIS = "Make Nemesis"
+MENU_MAKE_SURVIVOR = "Make Survivor"
+MENU_RESPAWN = "Respawn Menu"
+
+MENU_NO_PLAYERS = "There no players on Menu!"
+
+CMD_LAST_HUMAN = "This is last Human!"
+CMD_LAST_ZOMBIE = "This is last Zombie!"
+CMD_NOT_ACCESS = "You have no access!"
+
+MSG_TURNED_HUMAN = "!g%s !tturn !g%s !tinto Human!y!"
+MSG_TURNED_ZOMBIE = "!g%s !tturn !g%s !tinto Zombie!y!"
+MSG_TURNED_NEMESIS = "!g%s !tturn !g%s !tinto Nemesis!y!"
+MSG_TURNED_SURVIVOR = "!g%s !tturn !g%s !tinto Survivor!y!"
+MSG_PLAYER_REVIVED = "!g%s !thas revived !g%s"
+
+MENU_ADMIN = "Admin Menu"

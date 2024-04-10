@@ -7,7 +7,7 @@ const Float:HUD_SPEC_X = -1.0
 const Float:HUD_SPEC_Y = 0.76
 
 const Float:HUD_STATS_X = -1.0
-const Float:HUD_STATS_Y = 0.86
+const Float:HUD_STATS_Y = 0.88
 
 // Color indexes.
 enum _:Colors
@@ -315,3 +315,6 @@ public __native_hud_info_set(const plugin_id, const num_params)
 	get_array(3, g_iStatsColor[id], Colors)
 	return true
 }
+/* AMXX-Studio Notes - DO NOT MODIFY BELOW HERE
+*{\\ rtf1\\ ansi\\ deff0{\\ fonttbl{\\ f0\\ fnil Tahoma;}}\n\\ viewkind4\\ uc1\\ pard\\ lang1036\\ f0\\ fs16 \n\\ par }
+*/
